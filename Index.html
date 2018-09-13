@@ -20,7 +20,53 @@
         
    <!---------------------------------------------NAV------------------------------------------------------------>
 
-   <ul class="nav justify-content-center" #="navgo">
+<!-- Nav2.0 -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<div class="container">
+  <img src="./src/Image/Favcon.png" height="28" width="30" alt="Logo" Class="logo navbar-brand">
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a href="#home" class="nav-link">Current Projects</a>
+      </li>
+      <li class="nav-item">
+        <a href="#home" class="nav-link">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a href="#home" class="nav-link">Team</a>
+      </li>
+      <li class="nav-item">
+        <a href="#contact" class="nav-link">Contact</a>
+      </li>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Resources</a>
+      <div class="dropdown-menu">
+        <a href="#" class="dropdown-item">Blog</a>
+        <a href="#" class="dropdown-item">Udemy Course Reviews</a>
+        <a href="#" class="dropdown-item">HeadShots Jax</a>
+        <a href="#" class="dropdown-item">Blank</a>
+      </div>
+    </li>
+      
+    </ul>
+  </div>
+</div>
+</nav>
+
+
+
+
+
+
+
+<!-- Nav2.0 End -->
+
+
+   <!-- <ul class="nav justify-content-center" #="navgo">
       <div class="logo-box">
           <img src="./src/Image/Favcon.png" height="28" width="30" alt="Logo" Class="logo">
       </div>
@@ -34,7 +80,7 @@
           <a class="nav-link text-warning" href="#">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-warning" href="#">Contact</a>
+          <a href="#contact" class="nav-link text-warning" href="#">Contact</a>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link text-warning dropdown-toggle" data-toggle="dropdown" href="#">Resources</a>
@@ -46,7 +92,7 @@
           </div>
         </li>
       </ul>
-   <!-------------------------------------------END NAV-------------------------------------------------------->
+   -----------------------------------------END NAV------------------------------------------------------ -->
 <!-- <header class="header"> -->
   <!-- <h3 class="text-center gogo">&lt;Jeffrey.Padgett/></h3> -->
 
@@ -78,21 +124,58 @@
 
    <!--------------------------------------------------------SKILLS-------------------------------------------------------->
    <div class="jumbotron jumbotron-fluid skillsbg">
-      <div class="container mt-5">
+     
+      <div class="container mt-5"></div>
         <h1 class="display-4 text-white Myteamgogo">Skills</h1>
-        
+        <div class="PythonLogoContainer center-block d-inline">
+          <img src="src/Image/Skill_Icons/Python_logo.png" alt="Logo for Python" class="PythonLogo">
+        </div>
       </div>
     </div>
    <!--------------------------------------------------------SKILLS END------------------------------------------------------>
 
 
 
-   <!--------------------------------------------------------FOOTER----------------------------------------------------------->
-   <div id="footer">
+   <!--------------------------------------------------------CONTACT----------------------------------------------------------->
+  <div id="contact" class="jumbotron jumbotron-fluid contactbg">
+    <div class="container mt-5">
+      <h1 class="display-4 text-white Myteamgogo">Contact</h1>
+      <!-- Form -->
+      <div class="ContactForm">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1 text-white">Email address</label>
+            <input type="email" class="form-control form-control-lg w-50" id="exampleFormControlInput1" placeholder="name@example.com">
+            <small class="form-text">Your email will never be shared</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1 text-white">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message here..."></textarea>
+          </div>
+        </form>
+        <!-- End of Form -->
+        <button class="btn btn-light d-inline" type="submit">Submit</button>
 
+        <!-- Social Icons -->
+        <div class="container">
+          <div class="LinkedInLogobox d-inline">
+            <img src="./src/Image/Contact_Icons/Linkedin_PNG34.png" alt="Logo for linkedin" class="LinkedinLogo">
+          </div>
+        </div>
+        <div class="Githublogobox d-inline">
+          <img src="./src/Image/Contact_Icons/Git_Hub_Image.png" alt="Logo for Git Hub" class="GithubLogo">
+        </div>
+      </div>
+      <div class="Facebookogobox d-inline">
+        <img src="./src/Image/Contact_Icons/Facebook_Logo.png" alt="Logo for facebook" class="FacebookLogo">
+      </div>
+      </div>
 
-   </div>
-   <!--------------------------------------------------------END FOOTER------------------------------------------------------->
+        <!-- Social Icons -->
+  
+  
+  </div>
+   <!--------------------------------------------------------END CONTACT------------------------------------------------------->
 
 
 

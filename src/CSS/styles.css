@@ -33,6 +33,7 @@ body {
 .logo {
   position: relative;
   bottom: -5px;
+  height: 40px;
 
 }
 .gogo {
@@ -85,3 +86,73 @@ body {
   position: relative;
   top: -145px;
 }
+
+.contactbg {
+
+  background-image: linear-gradient(to right bottom, #ffee00d7, #b8b63038), url(../Image/Website-9.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 115vh;
+  clip-path: polygon(0 110px, 100% 0, 100% 690px, 0 100%);
+  position: relative;
+  top: -218px;
+}
+
+.LinkedinLogo
+{
+  Height: 55px;
+}
+
+.LinkedInLogobox { 
+Position: relative;
+top: 40px;
+left: 30px;
+bottom: -10px;
+
+ } 
+
+ .Githublogobox {
+  Position: relative;
+  top: -40px;
+  left: 270px;
+  bottom: 5px;
+ }
+
+ .Githublogo {
+  Height: 300px;
+ }
+
+ .Facebookogobox {
+   Position: relative;
+   left: 450px;
+   top: -114px;
+ }
+
+ .PythonLogoContainer {
+   height: 120px;
+   margin: auto;
+   padding: center;
+   width: 18%;
+   border: 3px solid green;
+   padding: 10px;
+
+ }
+
+ .PythonLogo {
+   border: 3px solid red;
+   height: 120px;
+   
+ }
+
+ .Skilltitle {
+  text-align: center;
+  border: 3px solid green;
+  padding-top: 50px;
+ }
+
+ .navbar {
+   border-bottom: rgba(0, 0, 0, 0.685) 3px solid;
+   /* opacity: 0.8; */
+
+ }
+
