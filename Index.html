@@ -7,53 +7,83 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700,900" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700,900" rel="stylesheet"> -->
         <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.min.css"/>
+
         <link rel="stylesheet" href="./src/CSS/styles.css"/>
 
 	</head>
 	<body>
-           
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
         
-
    <!---------------------------------------------NAV------------------------------------------------------------>
+
    <ul class="nav justify-content-center" #="navgo">
+      <div class="logo-box">
+          <img src="./src/Image/Favcon.png" height="28" width="30" alt="Logo" Class="logo">
+      </div>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link text-warning" href="#">Current Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link text-warning" href="#">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Team</a>
+          <a class="nav-link text-warning" href="#">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Links</a>
+          <a class="nav-link text-warning" href="#">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link text-warning dropdown-toggle" data-toggle="dropdown" href="#">Resources</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Blog</a>
+            <a href="#" class="dropdown-item">Udemy Course Reviews</a>
+            <a href="#" class="dropdown-item">Blank</a>
+            <a href="#" class="dropdown-item">Blank</a>
+          </div>
         </li>
       </ul>
    <!-------------------------------------------END NAV-------------------------------------------------------->
-<header class="header">
-    <div class="logo-box">
-        <img src="img/logo-white.png" alt="Logo" Class="logo">
-    </div>
-</header>
+<!-- <header class="header"> -->
+  <!-- <h3 class="text-center gogo">&lt;Jeffrey.Padgett/></h3> -->
+
+<!-- </header> -->
    
    
    <!-------------------------------------------HOME---------------------------------------------------------->
-   
+   <div class="jumbotron jumbotron-fluid headerbg">
+      <div class="container">
+        <h1 class="display-4 text-white Myheadergogo">&lt;Jeffrey.Padgett/></h1>
+        <p class="lead MyTeamDoc text-white"></p>
+        
+      </div>
+    </div>
    <!-----------------------------------------END HOME--------------------------------------------------------->
 
 
 
-   <!----------------------------------------------GALLERY----------------------------------------------------->
-   
-   <!---------------------------------------------END GALLERY--------------------------------------------------------->
+   <!----------------------------------------------TEAM BAR----------------------------------------------------->
+   <div class="jumbotron jumbotron-fluid teambg">
+      <div class="container mt-5">
+        <h1 class="display-4 text-white Myteamgogo">My Team</h1>
+
+      </div>
+    </div>
+   <!---------------------------------------------END TEAM--------------------------------------------------------->
 
 
 
-   <!--------------------------------------------------------RSVP-------------------------------------------------------->
-
-   <!--------------------------------------------------------END RSVP------------------------------------------------------>
+   <!--------------------------------------------------------SKILLS-------------------------------------------------------->
+   <div class="jumbotron jumbotron-fluid skillsbg">
+      <div class="container mt-5">
+        <h1 class="display-4 text-white Myteamgogo">Skills</h1>
+        
+      </div>
+    </div>
+   <!--------------------------------------------------------SKILLS END------------------------------------------------------>
 
 
 
