@@ -6,6 +6,8 @@ Dark Yellow: #edbd10
 White: #fff
 */
 
+/* I need to figure out how to set the clip-path properity to work on each of pages so it syncs properly */
+
 * {
   margin: 0;
   padding: 0;
@@ -20,18 +22,22 @@ button{
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.7;
-  Color: #777;
+  Color: rgb(255, 255, 255);
   padding: 15px;
 }
 
+.underline{
+  line-height: 2.7;
+  text-decoration: underline;
+}
+
 .headerbg {
-  height: 95vh;
+  height: 140vh;
   background-image:linear-gradient(to right bottom, #ffee00ab, #b8b63052), url(../Image/MainImage.jpg);
   background-size: cover;
   background-position: bottom;
-  clip-path: polygon(0 0, 100% 0, 100% 550px, 0 100%)
   
 }
 
@@ -41,55 +47,27 @@ body {
   height: 40px;
 
 }
-.gogo {
-  color:rgba(255, 255, 255, 0.822);
-  position: relative;
-  bottom: -6px;
-  left: -400px;
-  font-weight: 400;
-  font-size: 50px;
-  font-family: sans-serif;
-  box-shadow: #777
-}
+
 
 .teambg {
   background-image: linear-gradient(to right bottom, #ffee00b4, #b8b63038), url(../Image/Website-2.jpg);
   background-size: cover;
   background-position: top;
-  height: 115vh;
-  clip-path: polygon(0 110px, 100% 0, 100% 690px, 0 100%);
-  position: relative;
-  top: -75px
-}
-
-.Myteamgogo {
-
-  Position: relative;
-  left: -80px;
-  bottom: -10px;
-}
-
-.Myheadergogo {
-
-  Position: relative;
-  left: -80px;
-  bottom: 40px;
-}
-
-.MyTeamDoc {
-  Position: relative;
-  left: -10px;
-  bottom: -20px;
+  height: 140vh;
+  width: 100%px;
+  /* clip-path: polygon(0 110px, 100% 0, 100% 690px, 0 100%); */
+  margin-top: -150px;
+  
 }
 
 .skillsbg {
   background-image: linear-gradient(to right bottom, #ffee00ab, #b8b63038), url(../Image/Website-6.jpg);
   background-size: cover;
   background-position: top;
-  height: 115vh;
-  clip-path: polygon(0 110px, 100% 0, 100% 690px, 0 100%);
-  position: relative;
-  top: -145px;
+  height: 140vh;
+  width: 100%;
+  /* clip-path: polygon(0 110px, 100% 0, 100% 690px, 0 100%); */
+  margin-top: -150px;
 }
 
 .contactbg {
@@ -97,63 +75,13 @@ body {
   background-image: linear-gradient(to right bottom, #ffee00d7, #b8b63038), url(../Image/Website-9.jpg);
   background-size: cover;
   background-position: top;
-  height: 115vh;
-  clip-path: polygon(0 110px, 100% 0, 100% 690px, 0 100%);
-  position: relative;
-  top: -218px;
+  height: 140vh;
+  /* clip-path: polygon(0 110px, 100% 0, 100% 690px, 0 100%); */
+  margin-top: -150px;
+
 }
 
-.LinkedinLogo
-{
-  Height: 55px;
-}
 
-.LinkedInLogobox { 
-Position: relative;
-top: 40px;
-left: 30px;
-bottom: -10px;
-
- } 
-
- .Githublogobox {
-  Position: relative;
-  top: -40px;
-  left: 270px;
-  bottom: 5px;
- }
-
- .Githublogo {
-  Height: 300px;
- }
-
- .Facebookogobox {
-   Position: relative;
-   left: 450px;
-   top: -114px;
- }
-
- .PythonLogoContainer {
-   height: 120px;
-   margin: auto;
-   padding: center;
-   width: 18%;
-   border: 3px solid green;
-   padding: 10px;
-
- }
-
- .PythonLogo {
-   border: 3px solid red;
-   height: 120px;
-   
- }
-
- .Skilltitle {
-  text-align: center;
-  border: 3px solid green;
-  padding-top: 50px;
- }
 
  .navbar {
    border-bottom: rgba(0, 0, 0, 0.685) 3px solid;
@@ -161,8 +89,119 @@ bottom: -10px;
 
  }
 
- jack {
-   position: relative;
-   height: 100px;
+ .portrait {
+   
+   border: 4px solid black;
  }
 
+ .portrait:hover{
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+ }
+
+ .smallIcon {
+   width:150px;
+   height:150px;
+ }
+
+ .linkedinfix {
+   max-width:100%;
+   max-height:100%;
+ }
+
+ .githubfix {
+  max-width:100%;
+  max-height:100%;
+}
+
+.facebookfix {
+  max-width:100%;
+  max-height:100%;
+}
+
+.logorow1 {
+  max-width:100%;
+  max-Height:100%;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+}
+
+.clipbottom {
+ clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.cliptop {
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+}
+
+.clipboth{
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+}
+
+.mediabreak1{
+  margin-top: 15%;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  .mediabreak1 {
+    margin-top: 30%;
+    
+    
+ }
+
+ .socialbreak .facebookbreak {
+   content: url("../Image/Contact_Icons/facebook_logo_100x100.png");
+   width: 85px;
+   height: 75px;
+   
+ }
+
+ .socialbreak .githubbreak {
+  content: url("../Image/Contact_Icons/Git_Hub_Image.png");
+  margin-left: -15px;
+  margin-top: -7.5px;
+}
+
+.socialbreak .linkedinbreak {
+  width: 85px;
+  height: 75px;
+  content: url("../Image/Contact_Icons/LinkedIn_100x100.png")
+}
+
+.socialbreak img{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.socialbreak .smallfix{
+  width: 100px;
+}
+
+  .mediabreak1 h1{
+    font-size: 1.5em;
+    margin-left:67%;
+    margin-top: -15%;
+    margin-bottom: 17%;
+  }
+
+  .contactformbreak input {
+    width: 85%!important;
+    height: 50px;
+  }
+}
