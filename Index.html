@@ -7,7 +7,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700,900" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.min.css"/>
 
         <link rel="stylesheet" href="./src/CSS/styles.css"/>
@@ -30,10 +31,10 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a href="#home" class="nav-link">Current Projects</a>
+        <a href="#home" class="nav-link">People Skills</a>
       </li>
       <li class="nav-item">
-        <a href="#home" class="nav-link">Skills</a>
+        <a href="#home" class="nav-link">Tech Skills</a>
       </li>
       <li class="nav-item">
         <a href="#home" class="nav-link">Team</a>
@@ -48,7 +49,7 @@
         <a href="#" class="dropdown-item">Blog</a>
         <a href="#" class="dropdown-item">Udemy Course Reviews</a>
         <a href="#" class="dropdown-item">HeadShots Jax</a>
-        <a href="#" class="dropdown-item">Blank</a>
+        <a href="#" class="dropdown-item"></a>
       </div>
     </li>
       
@@ -62,19 +63,56 @@
    
    
    <!-- HOME -->
-   <div class="jumbotron jumbotron-fluid headerbg clipbottom">
-      <div class="container">
-        <div class="row" style="text-align: center">
-          <div class="col-md-12">
-              <h1 class="display-4 text-white ">&lt;Jeffrey.Padgett/></h1> <!-- I need to underline this title somehow, also, Maybe choose a different font.-->
-              <p class="lead MyTeamDoc text-white"></p>
-          </div>
+   
+   <!-- People Skills Head Section-->
+   <Section id="people-head-section" class="text-dark">
+     <div class="container">
+       <div class="row">
+         <div class="col text-center py-5">
+           <h1 class="display4">&lt;Jeffrey.Padgett></h1>
+         </div>
+       </div>
+     </div>
+   </Section>
+
+   <!-- People Skills Main Section-->
+
+   <section id="explore-section" class="py-5 headerbg clipbottom">
+    <div class="container pt-5 text-light">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./src/image/profile_picture.jpg" alt="" class="img-fluid mb-3 rounded-circle portrait">
+        </div>
+        <div class="col-md-6"> 
+          <h3>People Skills</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Harum exercitationem dignissimos aliquam non quia a necessitatibus autem,
+              nobis dicta in.</p>
+              <div class="d-flex">
+                <div class="p-4 align-self-start">
+                    <i class="fas fa-heart fa-2x"></i>
+                </div>
+                <div class="p-4 align-self-end">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At odit magnam, tempora repudiandae eos ad!
+                </div>
+              </div>
+
+              <div class="d-flex">
+                  <div class="p-4 align-self-start">
+                      <i class="fas fa-users fa-2x"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. At odit magnam, tempora repudiandae eos ad!
+                  </div>
+                </div>
+
             
         </div>
-        
-        
+
       </div>
     </div>
+   </section>
+
    <!-- END HOME -->
 
 
@@ -130,7 +168,7 @@
      <div class="container" style="margin-top: 7.5%;">
         <div class="row">
             <div class="col text-center py-4">
-              <h1 class="display-4">Skills</h1>
+              <h1 class="display-4 text-light"> Tech Skills</h1>
               <div class="row">
                  <div class="col-md-4">
                      <img class="logorow1" src="./src/image/Skill_Icons/Python_logo.png" alt="Python_Logo" >
@@ -181,9 +219,9 @@
           <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
-                    <label  for="exampleFormControlInput1 text-white">Email address</label>
+                    <label for="exampleFormControlInput1" class="text-light">Email address</label>
                     <input type="email" class="form-control form-control-lg w-50" id="exampleFormControlInput1" placeholder="name@example.com">
-                    <small class="form-text">Your email will never be shared</small>
+                    <small class="form-text text-light">Your email will never be shared</small>
                   </div>
             </div>
           </div>
@@ -191,7 +229,7 @@
           <div class="form-group">
             <div class="row">
               <div class="col-md-12">
-                  <label for="exampleFormControlTextarea1 text-white">Message</label>
+                  <label for="exampleFormControlTextarea1" class="text-white">Message</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" style="margin: 0 auto;" rows="3" placeholder="Your message here..."></textarea>
               </div>
             </div>

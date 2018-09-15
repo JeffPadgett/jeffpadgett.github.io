@@ -14,12 +14,12 @@ White: #fff
   box-sizing: border-box;
 }
 
-button{
+.button{
   width: 120px;
   height: 50px;
 }
 
-body {
+.body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 1em;
@@ -28,20 +28,24 @@ body {
   padding: 15px;
 }
 
-.underline{
+/* .underline{
   line-height: 2.7;
   text-decoration: underline;
+} */
+
+#people-head-section {
+  border-bottom: rgba(0, 0, 0, 0.685) 3px solid;
 }
 
 .headerbg {
   height: 140vh;
-  background-image:linear-gradient(to right bottom, #ffee00ab, #b8b63052), url(../Image/MainImage.jpg);
+  background-image:linear-gradient(to right bottom, #000000ad, #b8b63052), url(../Image/MainImage.jpg);
   background-size: cover;
   background-position: bottom;
-  
+  /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
 }
 
-.logo {
+.logo { /*Keeps Duck from being squished */
   position: relative;
   bottom: -5px;
   height: 40px;
@@ -50,38 +54,34 @@ body {
 
 
 .teambg {
-  background-image: linear-gradient(to right bottom, #ffee00b4, #b8b63038), url(../Image/Website-2.jpg);
+  background-image: linear-gradient(to right bottom, #383838b4, #b8b63038), url(../Image/Website-2.jpg);
   background-size: cover;
   background-position: top;
   height: 140vh;
   width: 100%px;
-  /* clip-path: polygon(0 110px, 100% 0, 100% 690px, 0 100%); */
   margin-top: -150px;
+  
   
 }
 
 .skillsbg {
-  background-image: linear-gradient(to right bottom, #ffee00ab, #b8b63038), url(../Image/Website-6.jpg);
+  background-image: linear-gradient(to right bottom, #1a1a1ac7, #b8b63038), url(../Image/Website-6.jpg);
   background-size: cover;
   background-position: top;
   height: 140vh;
   width: 100%;
-  /* clip-path: polygon(0 110px, 100% 0, 100% 690px, 0 100%); */
   margin-top: -150px;
 }
 
 .contactbg {
 
-  background-image: linear-gradient(to right bottom, #ffee00d7, #b8b63038), url(../Image/Website-9.jpg);
+  background-image: linear-gradient(to right bottom, #1b1b1bab, #b8b63038), url(../Image/Website-9.jpg);
   background-size: cover;
   background-position: top;
   height: 140vh;
-  /* clip-path: polygon(0 110px, 100% 0, 100% 690px, 0 100%); */
   margin-top: -150px;
 
 }
-
-
 
  .navbar {
    border-bottom: rgba(0, 0, 0, 0.685) 3px solid;
@@ -90,7 +90,6 @@ body {
  }
 
  .portrait {
-   
    border: 4px solid black;
  }
 
@@ -139,11 +138,16 @@ body {
 
 .clipboth{
   clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
-}
+} 
 
 .mediabreak1{
   margin-top: 15%;
 }
+
+/* #explore-section {
+  height: 140vh;
+  border-bottom: rgba(0, 0, 0, 0.685) 8px solid;
+} */
 
 /* Large desktop */
 @media (min-width: 1200px) { 
