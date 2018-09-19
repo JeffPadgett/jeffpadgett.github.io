@@ -39,7 +39,7 @@ White: #fff
 
 .headerbg {
   height: 140vh;
-  background-image:linear-gradient(to right bottom, #000000ad, #b8b63052), url(../Image/MainImage.jpg);
+  background-image:linear-gradient(to right bottom, #000000ad, #b8b63052), url(../images/MainImage.jpg);
   background-size: cover;
   background-position: bottom;
   /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */
@@ -54,7 +54,7 @@ White: #fff
 
 
 .teambg {
-  background-image: linear-gradient(to right bottom, #383838b4, #b8b63038), url(../Image/Website-2.jpg);
+  background-image: linear-gradient(to right bottom, #383838b4, #b8b63038), url(../images/Website-2.jpg);
   background-size: cover;
   background-position: top;
   height: 140vh;
@@ -65,7 +65,7 @@ White: #fff
 }
 
 .skillsbg {
-  background-image: linear-gradient(to right bottom, #1a1a1ac7, #b8b63038), url(../Image/Website-6.jpg);
+  background-image: linear-gradient(to right bottom, #1a1a1ac7, #b8b63038), url(../images/Website-6.jpg);
   background-size: cover;
   background-position: top;
   height: 140vh;
@@ -75,7 +75,7 @@ White: #fff
 
 .contactbg {
 
-  background-image: linear-gradient(to right bottom, #1b1b1bab, #b8b63038), url(../Image/Website-9.jpg);
+  background-image: linear-gradient(to right bottom, #1b1b1bab, #b8b63038), url(../images/Website-9.jpg);
   background-size: cover;
   background-position: top;
   height: 140vh;
@@ -170,14 +170,14 @@ White: #fff
  }
 
  .socialbreak .facebookbreak {
-   content: url("../Image/Contact_Icons/facebook_logo_100x100.png");
+   content: url("../images/Contact_Icons/facebook_logo_100x100.png");
    width: 85px;
    height: 75px;
    
  }
 
  .socialbreak .githubbreak {
-  content: url("../Image/Contact_Icons/Git_Hub_Image.png");
+  content: url("../images/Contact_Icons/Git_Hub_Image.png");
   margin-left: -15px;
   margin-top: -7.5px;
 }
@@ -185,7 +185,7 @@ White: #fff
 .socialbreak .linkedinbreak {
   width: 85px;
   height: 75px;
-  content: url("../Image/Contact_Icons/LinkedIn_100x100.png")
+  content: url("../images/Contact_Icons/LinkedIn_100x100.png")
 }
 
 .socialbreak img{
