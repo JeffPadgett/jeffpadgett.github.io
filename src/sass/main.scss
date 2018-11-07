@@ -3,6 +3,8 @@
 $color-primary: #ffe13a;
 $color-primary-light:#fffa00;
 $color-primary-dark:#edbd10;
+$color-primary-darker: #b8b63052;
+$color-primary-gray:#383838b4;
 $color-primary-white: #fff;
 //theme colors//
 
@@ -128,17 +130,17 @@ $color-primary-white: #fff;
     text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
   }
   
-  .clipbottom {
-   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  }
+//   .clipbottom {
+//    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+//   }
   
-  .cliptop {
-    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-  }
+//   .cliptop {
+//     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+//   }
   
-  .clipboth{
-    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
-  } 
+//   .clipboth{
+//     clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+//   } 
   
   .mediabreak1{
     margin-top: 15%;
@@ -149,25 +151,45 @@ $color-primary-white: #fff;
     border-bottom: rgba(0, 0, 0, 0.685) 8px solid;
   } */
   
-  /* Large desktop */
-  @media (min-width: 1200px) { 
-  
-    
-  }
-   
-  /* Portrait tablet to landscape and desktop */
-  @media (min-width: 768px) and (max-width: 979px) { }
-   
-  /* Landscape phone to portrait tablet */
-  @media (max-width: 767px) { }
    
   /* Landscape phones and down */
-  @media (max-width: 480px) { 
+  @media (max-width: 600px) { 
+
+    html{
+        font-size: 50%;
+        .skilllogo{
+            max-width: 30%;
+            max-height: 30%;
+        }
+        .teambg{
+            height: 80vh;
+        }
+        .skillsbg{
+            height: 80vh;
+        }
+
+        .contactbg{
+            height: 80vh;
+            
+        }
+        .profilepic {
+            max-width: 70%;
+            padding: 10px;
+            margin-left: 50px;
+        
+        }
+        .headerbg {
+            height: 100vh;
+        }
+
+    }
     .mediabreak1 {
       margin-top: 30%;
-      
-      
+      font-size: 50%;
+          
    }
+
+
   
    .socialbreak .facebookbreak {
      content: url("../images/Contact_Icons/facebook_logo_100x100.png");
