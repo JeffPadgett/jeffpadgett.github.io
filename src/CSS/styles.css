@@ -180,6 +180,11 @@ White: #fff
   content: url("../images/Contact_Icons/Git_Hub_Image.png");
   margin-left: -15px;
   margin-top: -7.5px;
+  border: 2px solid #dadada;
+  border-radius: 7px;
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
 }
 
 .socialbreak .linkedinbreak {
