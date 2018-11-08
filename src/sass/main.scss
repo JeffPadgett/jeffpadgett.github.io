@@ -51,9 +51,47 @@ $color-primary-white: #fff;
     position: relative;
     bottom: -5px;
     height: 40px;
-  
+    animation-name: duckMove;
+    animation-duration: 1s;
+    animation-delay: .2s;
+    backface-visibility: hidden;
+    
   }
-  
+
+  @keyframes duckMove{
+      0% {
+          opacity: 0;
+          transform: translateX(-100px);      
+      }
+      20% {
+        opacity: 0.2;
+        transform: translateY(-4px);
+
+      }
+      40% {
+        opacity: 0.4;
+        transform: translateY(4px);
+
+      }
+      60%{
+        opacity: 0.6;
+        transform: translateY(-2px);
+
+      }
+      80%{
+        opacity: 0.8;
+        transform: translateY(1px);
+
+      }
+      
+      100%{
+          opacity: 1;
+          transform: translateX(0);
+          
+
+      }
+
+  } 
   
   .teambg {
     background-image: linear-gradient(to right bottom, #383838b4, #b8b63038), url(../images/Website-2.jpg);
@@ -156,6 +194,9 @@ $color-primary-white: #fff;
   @media (max-width: 600px) { 
 
     html{
+        .logo {
+            height: 35px;
+        }
         font-size: 50%;
         .skilllogo{
             max-width: 30%;
