@@ -36,25 +36,37 @@
   height: 40px;
   animation-name: duckMove;
   animation-duration: 1s;
-  animation-delay: .2s;
+  animation-delay: .1s;
   backface-visibility: hidden; }
+
+.nametitle {
+  animation-name: titleAppear;
+  animation-duration: .7s;
+  animation-delay: .1;
+  backface-visibility: hidden; }
+
+@keyframes titleAppear {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 @keyframes duckMove {
   0% {
     opacity: 0;
-    transform: translateX(-100px); }
+    transform: translateX(-100px) rotate(10deg); }
   20% {
     opacity: 0.2;
-    transform: translateY(-4px); }
+    transform: translateY(-4px) rotate(-7deg); }
   40% {
     opacity: 0.4;
-    transform: translateY(4px); }
+    transform: translateY(4px) rotate(5deg); }
   60% {
     opacity: 0.6;
-    transform: translateY(-2px); }
+    transform: translateY(-2px) rotate(-4deg); }
   80% {
     opacity: 0.8;
-    transform: translateY(1px); }
+    transform: translateY(1px) rotate(3deg); }
   100% {
     opacity: 1;
     transform: translateX(0); } }
