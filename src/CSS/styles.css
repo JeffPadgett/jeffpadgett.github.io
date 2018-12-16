@@ -23,11 +23,19 @@
   border-bottom: rgba(0, 0, 0, 0.685) 3px solid; }
 
 .headerbg {
-  height: 140vh;
+  height: 100vh;
   background-image: linear-gradient(to right bottom, #000000ad, #b8b63052), url(../images/MainImage.jpg);
   background-size: cover;
   background-position: bottom;
+  margin-bottom: 10px;
   /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); */ }
+
+  .profilepic {
+
+    margin-top: 80px;
+
+  }
+
 
 .logo {
   /*Keeps Duck from being squished */
@@ -75,9 +83,10 @@
   background-image: linear-gradient(to right bottom, #383838b4, #b8b63038), url(../images/Website-2.jpg);
   background-size: cover;
   background-position: top;
-  height: 140vh;
+  height: 100vh;
   width: 100%px;
-  margin-top: -150px; }
+  margin-bottom: 10px;
+ }
 
 .skillsbg {
   background-image: linear-gradient(to right bottom, #1a1a1ac7, #b8b63038), url(../images/Website-6.jpg);
@@ -85,14 +94,13 @@
   background-position: top;
   height: 140vh;
   width: 100%;
-  margin-top: -150px; }
+  margin-bottom: 10px; }
 
 .contactbg {
   background-image: linear-gradient(to right bottom, #1b1b1bab, #b8b63038), url(../images/Website-9.jpg);
   background-size: cover;
   background-position: top;
-  height: 140vh;
-  margin-top: -150px; }
+  height: 140vh; }
 
 .navbar {
   border-bottom: rgba(0, 0, 0, 0.685) 3px solid;
@@ -126,6 +134,23 @@
   max-width: 100%;
   max-Height: 100%; }
 
+.reactlogo {
+  max-width: 100%;
+  max-Height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+.aspmvclogo {
+  max-width: 100%;
+  max-Height: 100%;
+  vertical-align: middle;
+  margin: auto auto;
+
+
+  
+}
+
+
 .text-shadow {
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black; }
 
@@ -139,24 +164,24 @@
 /* Landscape phones and down */
 @media (max-width: 600px) {
   html {
-    font-size: 50%; }
+    font-size: 75%; }
     html .logo {
       height: 35px; }
     html .skilllogo {
       max-width: 30%;
       max-height: 30%; }
     html .teambg {
-      height: 80vh; }
+      height: 60vh; }
     html .skillsbg {
       height: 75vh; }
     html .contactbg {
       height: 80vh; }
     html .profilepic {
-      max-width: 70%;
-      padding: 10px;
-      margin-left: 50px; }
+      padding: 10px; }
     html .headerbg {
       height: 120vh; }
+      
+ 
   .mediabreak1 {
     margin-top: 30%;
     font-size: 50%; }
@@ -190,3 +215,48 @@
   .contactformbreak input {
     width: 85% !important;
     height: 50px; } }
+
+
+    @media (max-width: 775px) {
+      
+  .profilepic {
+    margin-top: 10px;
+  }
+  .headerbg {
+    height: 120vh;
+  }
+  .teambg {
+    height: 120vh;
+  }
+
+    }
+
+    @media (max-width: 380px)
+    {
+      .jeffpic {
+        height: 35vh;
+      }
+      .jojo {
+        display: none;
+      }
+      .skillsbg {
+        height: 10vh;
+      }
+
+      .col-centered {
+        float: none;
+        margin: 0 auto;
+      }
+      
+      .techskills-div {
+
+      }
+
+
+
+
+
+
+
+
+    }
