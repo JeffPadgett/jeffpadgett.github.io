@@ -233,6 +233,9 @@
 
     @media (max-width: 380px)
     {
+      .html {
+        white-space: nowrap;
+      }
       .jeffpic {
         height: 30vh;
       }
