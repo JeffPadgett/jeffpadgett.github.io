@@ -231,7 +231,7 @@
 
     }
 
-    @media (max-width: 380px)
+    @media (max-width: 380px) and (max-height: 700px)
     {
       .html {
         white-space: nowrap;
