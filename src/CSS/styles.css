@@ -235,9 +235,8 @@
     {
       .html {
         white-space: nowrap;
-        height: 100%;
-        width: 100%;
         overflow:hidden;
+        font-size: 1rem;
       }
       .jeffpic {
         height: 30vh;
