@@ -234,7 +234,7 @@
     @media (max-width: 380px)
     {
       .jeffpic {
-        height: 35vh;
+        height: 30vh;
       }
       .jojo {
         display: none;
@@ -246,6 +246,10 @@
       .col-centered {
         float: none;
         margin: 0 auto;
+      }
+
+      .headerbg {
+
       }
       
       .techskills-div {
