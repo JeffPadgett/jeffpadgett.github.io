@@ -135,8 +135,6 @@
   max-Height: 100%; }
 
 .reactlogo {
-  max-width: 100%;
-  max-Height: 100%;
   vertical-align: middle;
   text-align: center;
 }
@@ -144,11 +142,14 @@
   max-width: 100%;
   max-Height: 100%;
   vertical-align: middle;
-  margin: auto auto;
-
-
-  
+  margin: auto auto; 
 }
+
+.future-projects {
+  max-width: 100%;
+  max-Height: 100%;
+}
+
 
 
 .text-shadow {
@@ -162,7 +163,7 @@
     border-bottom: rgba(0, 0, 0, 0.685) 8px solid;
   } */
 /* Landscape phones and down */
-@media (max-width: 600px) {
+@media (max-width: 775px) {
   html {
     font-size: 75%; }
     html .logo {
@@ -217,7 +218,7 @@
     height: 50px; } }
 
 
-    @media (max-width: 775px) {
+    @media (min-width: 510px) (max-width: 775px) {
       
   .profilepic {
     margin-top: 10px;
@@ -227,6 +228,16 @@
   }
   .teambg {
     height: 120vh;
+  }
+  .future-projects {
+    align-items: center;
+    display: flex;
+    height: 6em;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  .reactlogo {
+    margin-left: -2;
   }
 
     }
@@ -268,5 +279,12 @@
         width: 100%;
       }
 
+    }
+
+    @media (max-width: 360px)
+    {
+      .ellie {
+        display: none;
+      }
     }
     
