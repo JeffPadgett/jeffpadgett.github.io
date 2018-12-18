@@ -244,10 +244,14 @@
 
     @media (max-width: 400px)
     {
+      .profilepic{
+        margin-top:0;
+      }
       .html {
         white-space: nowrap;
       }
       .jeffpic {
+        margin-top: 20px;
         height: 30vh;
       }
       .jojo {
