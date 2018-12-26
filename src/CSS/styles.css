@@ -150,6 +150,12 @@
   max-Height: 100%;
 }
 
+.future-row {
+  max-height: 5rem;
+  max-width: 20rem;
+  float: none; margin: 0 auto;
+}
+
 
 
 .text-shadow {
