@@ -9,6 +9,22 @@
     
 }
 
+
+
+.btn-back {
+    position: absolute;
+    top: 5.5%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    font-family: Lato;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    color: rgb(31, 21, 21);
+    text-decoration: none;
+    
+}
+
 .clearfix::after {
     content: "";
     display: table;
