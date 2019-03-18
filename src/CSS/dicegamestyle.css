@@ -9,6 +9,16 @@
     
 }
 
+.rules{
+    color:white;
+    border: 2px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    
+}
+
 
 
 .btn-back {
