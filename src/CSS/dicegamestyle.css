@@ -22,7 +22,12 @@
     font-size: 20px;
     color: rgb(31, 21, 21);
     text-decoration: none;
-    
+}
+
+.btn-back:hover {
+    margin-top: 3px;
+    transition: background-color 0.3s, color 0.3s;
+    transition: margin 0.3s;
 }
 
 .clearfix::after {
@@ -32,7 +37,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(../DiceGame/Images/back.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -175,19 +180,23 @@ i {
 .input-form {
     position: absolute;
     left: 50%;
-    top: 300px;
+    top: 520px;
     transform: translateX(-50%);
     border: none;
     text-align: center;
     text-transform: uppercase;
-
 }
+.input-form:hover { font-weight: 600;
+    margin-top: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    transition: margin 0.3s;
+ }
+
 #input-label {
     font-family: Lato;
     text-align: center;
     border: none;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 #player-input {
     text-align: center;
