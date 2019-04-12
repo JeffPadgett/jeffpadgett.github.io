@@ -166,7 +166,7 @@ var UIController = (function() {
     };
 
     var formatNumber = function(num, type) {
-        var numSplit; int, dec;
+        var numSplit, int, dec;
         /*
         + or - before number
         exactly 2 decimal points
