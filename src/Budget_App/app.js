@@ -299,7 +299,7 @@ var controller = (function (budgetCtrl, UICtrl) {
         UICtrl.displayPercentages(percentages);
     },
 
-    var ctrlAddItem = function () {
+        ctrlAddItem = function () {
         var input, newItem;
 
         // 1. Get the field input data
