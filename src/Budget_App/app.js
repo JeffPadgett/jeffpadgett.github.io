@@ -137,9 +137,7 @@ var budgetController = (function () {
         testing: function() {
             console.log(data);
         }
-    }
-
-
+    };
 
 })();
 
@@ -367,7 +365,7 @@ var controller = (function (budgetCtrl, UICtrl) {
         if (input.description !== "" && !isNaN(input.value) && input.value > 0)
         {
             // 2. Add the item to the budget controller
-            newItem = budgetController.addItem(input.type, input.descrition, input.value);
+            newItem = budgetCtrl.addItem(input.type, input.descrition, input.value);
     
             // 3. Add the item to the UI
             UICtrl.addListItem(newItem, input.type);
@@ -388,6 +386,7 @@ var controller = (function (budgetCtrl, UICtrl) {
 
     var ctrlDeleteItem = function(event) {
         var itemID, splitID, type, ID;
+        
         itemID = event.target.parentNode.parentNode.parentNode.parentNode.id;
 
         if (itemID) {
