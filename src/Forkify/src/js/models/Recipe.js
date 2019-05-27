@@ -16,7 +16,11 @@ export default class Recipe {
             this.ingredients = res.data.recipe.ingredients;
         } catch (error) {
             console.log(error);
-            alert('Something went wrong :(');
+            if (this.title === undefined) {
+                alert('You have reached the maximum daily limit of 50 API calls...');
+            } else {
+                alert('Something went wrong with the API call...');
+            }          
         }
     }
 
